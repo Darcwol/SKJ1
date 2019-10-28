@@ -12,7 +12,7 @@ public class TCPClient {
         PrintWriter out = null;
         BufferedReader in = null;
         String address = "localhost";
-        int port = 49921;
+        int port = PortMapper.PORT;
         try {
             socket = new Socket(address, port);
             out = new PrintWriter(socket.getOutputStream(), true);
@@ -28,16 +28,8 @@ public class TCPClient {
         }
 
         try {
-            out.println("2 5 8 4 1 -1");
-            out.println();
-            out.println();
-
-            String line;
-            while((line = in.readLine()) != null)
-            {
-                System.out.println(line);
-
-            }
+            out.println("CALL adder 2 5 8 4 1 -1");
+            System.out.println(in.readLine());
         }
         catch (IOException e) {
             System.out.println("Error during communication");
