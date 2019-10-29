@@ -42,6 +42,9 @@ public class PortMapperThread extends Thread {
                     case "GET":
                         res = new StringBuilder(list.get(strings[1]));
                         break;
+                    case "LIST":
+                        res = new StringBuilder(list.toString());
+                        break;
                     case "CALL": {
                         res = call(strings);
                         break;

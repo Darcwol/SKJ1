@@ -54,7 +54,7 @@ public class TCPServer {
         }
 
         try {
-            out.println("REGISTER adder localhost " + port);
+            out.println("REGISTER ADDER localhost " + port);
 
             String line = in.readLine();
             System.out.println(line);

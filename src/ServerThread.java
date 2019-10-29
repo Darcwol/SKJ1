@@ -20,9 +20,15 @@ public class ServerThread extends Thread {
 
             int res = 0;
             String[] numbers = in.readLine().split(" ");
-            for (String num : numbers) {
-                res += Integer.parseInt(num);
-            }
+            try {
+				for (String num : numbers) {
+					res += Integer.parseInt(num);
+				}
+			} catch (Exception e){
+            	out.println("ERROR! NOT NUMBER!");
+				System.err.println("Not number");
+				return;
+			}
             System.out.println("result ready");
             out.println("Result: " + res);
         } catch (IOException e1) {

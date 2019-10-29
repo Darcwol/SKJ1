@@ -3,7 +3,7 @@ import java.net.ServerSocket;
 import java.net.Socket;
 
 public class PortMapper {
-    static int PORT = 520;
+    static int PORT = 3333;
     private void listenSocket() {
         ServerSocket server = null;
         Socket client = null;

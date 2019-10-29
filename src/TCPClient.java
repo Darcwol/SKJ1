@@ -11,8 +11,11 @@ public class TCPClient {
         Socket socket = null;
         PrintWriter out = null;
         BufferedReader in = null;
-        String address = "localhost";
-        int port = PortMapper.PORT;
+        String address =
+                //"localhost"
+                "172.21.217.1"
+                ;
+        int port = 3333;
         try {
             socket = new Socket(address, port);
             out = new PrintWriter(socket.getOutputStream(), true);
@@ -28,7 +31,10 @@ public class TCPClient {
         }
 
         try {
-            out.println("CALL adder 2 5 8 4 1 -1");
+            //out.println("REGISTER Kiril_Maneichyk 172.21.217.132");
+            out.println("LIST");
+            //out.println("CALL ADDER 1 2 3 4");
+
             System.out.println(in.readLine());
         }
         catch (IOException e) {
