@@ -12,8 +12,8 @@ public class TCPClient {
         PrintWriter out = null;
         BufferedReader in = null;
         String address =
-                //"localhost"
-                "172.21.217.1"
+                "localhost"
+                //"172.21.217.1"
                 ;
         int port = 3333;
         try {

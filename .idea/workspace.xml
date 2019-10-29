@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df51a94d-d797-483b-b0ba-72ae2a395985" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="df51a94d-d797-483b-b0ba-72ae2a395985" name="Default Changelist" comment="Added list&#10;Changed port for correct&#10;Make adder more safe">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TCPClient/ServerThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TCPClient/ServerThread.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/TCPClient/TCPClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TCPClient/TCPClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TCPClient/TCPServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TCPClient/TCPServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PortMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PortMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PortMapperThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PortMapperThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ServerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ServerThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TCPClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TCPClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TCPServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TCPServer.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TCPClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+            <state relative-caret-position="425">
+              <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -56,8 +50,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PortMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+            <state relative-caret-position="397">
+              <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -65,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/PortMapperThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="52" column="54" lean-forward="true" selection-start-line="52" selection-start-column="54" selection-end-line="52" selection-end-column="54" />
+            <state relative-caret-position="499">
+              <caret line="57" column="63" selection-start-line="57" selection-start-column="63" selection-end-line="57" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -103,9 +97,9 @@
       <list>
         <option value="$PROJECT_DIR$/src/PortMapper.java" />
         <option value="$PROJECT_DIR$/src/TCPServer.java" />
-        <option value="$PROJECT_DIR$/src/PortMapperThread.java" />
         <option value="$PROJECT_DIR$/src/ServerThread.java" />
         <option value="$PROJECT_DIR$/src/TCPClient.java" />
+        <option value="$PROJECT_DIR$/src/PortMapperThread.java" />
       </list>
     </option>
   </component>
@@ -179,7 +173,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TCPClient">
+  <component name="RunManager" selected="Application.PortMapper">
     <configuration name="PortMapper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PortMapper" />
       <module name="TCPClient" />
@@ -222,10 +216,18 @@
       <workItem from="1571726455103" duration="4560000" />
       <workItem from="1572268333371" duration="4389000" />
     </task>
+    <task id="LOCAL-00001" summary="Added list&#10;Changed port for correct&#10;Make adder more safe">
+      <created>1572336787150</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1572336787150</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1456000" />
+    <option name="totallyTimeSpent" value="3692000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="359" y="33" width="1400" height="1000" extended-state="0" />
@@ -297,46 +299,15 @@
       </map>
     </option>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/PortMapperThread.java</url>
-          <line>82</line>
-          <properties />
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/PortMapperThread.java</url>
-          <line>77</line>
-          <properties />
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added list&#10;Changed port for correct&#10;Make adder more safe" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added list&#10;Changed port for correct&#10;Make adder more safe" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/PortMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/TCPServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PortMapperThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="52" column="54" lean-forward="true" selection-start-line="52" selection-start-column="54" selection-end-line="52" selection-end-column="54" />
         </state>
       </provider>
     </entry>
@@ -350,13 +321,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/TCPClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+        <state relative-caret-position="425">
+          <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PortMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PortMapperThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="57" column="63" selection-start-line="57" selection-start-column="63" selection-end-line="57" selection-end-column="63" />
         </state>
       </provider>
     </entry>

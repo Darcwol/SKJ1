@@ -33,25 +33,29 @@ public class PortMapperThread extends Thread {
             StringBuilder res;
             while((line = in.readLine()) != null && !line.isEmpty()) {
                 String[] strings = line.split(" ");
-                switch (strings[0]) {
-                    case "REGISTER":
-                        list.put(strings[1], strings[2] + ":" + strings[3]);
-                        res = new StringBuilder("Service " + strings[1] + " has been successfully registered on " +
-                                strings[2] + ":" + strings[3]);
-                        break;
-                    case "GET":
-                        res = new StringBuilder(list.get(strings[1]));
-                        break;
-                    case "LIST":
-                        res = new StringBuilder(list.toString());
-                        break;
-                    case "CALL": {
-                        res = call(strings);
-                        break;
+                try {
+                    switch (strings[0]) {
+                        case "REGISTER":
+                            list.put(strings[1], strings[2] + ":" + strings[3]);
+                            res = new StringBuilder("Service " + strings[1] + " has been successfully registered on " +
+                                    strings[2] + ":" + strings[3]);
+                            break;
+                        case "GET":
+                            res = new StringBuilder(list.get(strings[1]));
+                            break;
+                        case "LIST":
+                            res = new StringBuilder(list.toString());
+                            break;
+                        case "CALL": {
+                            res = call(strings);
+                            break;
+                        }
+                        default:
+                            res = new StringBuilder("ERROR0");
+                            break;
                     }
-                    default:
-                        res = new StringBuilder("ERROR0");
-                        break;
+                } catch (Exception e) {
+                    res = new StringBuilder("Smth went wrong");
                 }
 
                 out.println(res.toString());
